@@ -4,8 +4,8 @@ describe('Test of login', () => {
     function browserPause() {
         browser.pause(2000);
     }
-    const urlRegister = '';
-    const urlLogin = 'AGREGAR';
+    const urlRegister = 'https://everisaacdiez.github.io/week14/public/register.html';
+    const urlLogin = 'https://everisaacdiez.github.io/week14/public/login.html';
 
     //Email
     it('Empty email', () => {
