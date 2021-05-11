@@ -1,0 +1,208 @@
+.login-form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 500px;
+    height: 530px;
+    margin-left: 35%;
+    margin-top: 10%;
+    padding: 20px;
+    border-radius: 8px;
+    color: rgb(255, 255, 255);
+    font-size: 40px;
+    font-weight: bolder;
+    background-color: rgba(12, 2, 49, 0.664);
+    box-shadow: 8px 12px #888888;
+}
+
+#container-email {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 10px;
+    margin-top: 30px;
+}
+
+#container-password {
+    display: flex;
+    flex-direction: column;
+}
+
+.login-form label {
+    margin-top: 10px;
+    font-size: 20px;
+    color: rgb(255, 255, 255);
+}
+
+.login-form input {
+    width: 450px;
+    height: 40px;
+    margin: 10px;
+    border: 2px solid black;
+    border-radius: 5px;
+    font-size: 20px;
+    font-weight: bolder;
+    background-color: rgb(238, 243, 245);
+    box-shadow: 8px 12px #888888;
+    outline: none;
+}
+
+.login-form button {
+    width: 50%;
+    margin-left: 25%;
+    margin-top: 20px;
+    padding: 15px 10px;
+    border: 0;
+    border-radius: 5px;
+    font-weight: bolder;
+    font-size: 20px;
+    background-color: rgb(3, 68, 11);
+    color: white;
+    outline: none;
+}
+
+#goToRegisterLink {
+    margin-top: 10px;
+    font-size: 18px;
+    color: blue;
+    text-decoration: none;
+}
+
+.register-form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 500px;
+    height: 930px;
+    margin-left: 35%;
+    margin-top: 0.5%;
+    padding: 20px;
+    font-size: 40px;
+    font-weight: bolder;
+    border-radius: 8px;
+    box-shadow: 8px 12px #888888;
+    background-color: rgba(12, 2, 49, 0.664);
+    color: rgb(255, 255, 255);
+}
+
+.register-form label {
+    font-size: 20px;
+    color: rgb(255, 255, 255);
+}
+
+.register-form input {
+    width: 90%;
+    height: 40px;
+    margin: 10px;
+    border: 2px solid black;
+    border-radius: 5px;
+    font-weight: bolder;
+    font-size: 20px;
+    box-shadow: 6px 5px #888888;
+    background-color: rgb(238, 243, 245);
+    outline: none;
+}
+
+#buttons-div {
+    margin-top: 30px;
+}
+
+.register-form button {
+    width: 50%;
+    margin-left: 25%;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    padding: 15px 10px;
+    border: 0;
+    border-radius: 5px;
+    font-weight: bolder;
+    font-size: 20px;
+    background-color: rgb(3, 68, 11);
+    color: white;
+    outline: none;
+}
+
+#login-validation-div {
+    text-align: center;
+    padding: 10px;
+    border-radius: 10px;
+    font-weight: bolder;
+    font-size: 30px;
+    color: rgb(3, 68, 11);
+}
+
+#mail-validation-div {
+    text-align: center;
+    margin-top: 8px;
+    padding: 10px;
+    border-radius: 10px;
+    font-weight: bolder;
+    font-size: 20px;
+    color: rgb(3, 68, 11);
+}
+
+#password-validation-div {
+    text-align: center;
+    margin-top: 8px;
+    padding: 10px;
+    border-radius: 10px;
+    font-weight: bolder;
+    font-size: 20px;
+    color: rgb(3, 68, 11);
+}
+
+#register-validation-div {
+    text-align: center;
+    padding: 10px;
+    border-radius: 10px;
+    font-weight: bolder;
+    font-size: 30px;
+    color: rgb(209, 255, 2);
+}
+
+#register-mail-validation-div {
+    text-align: center;
+    margin-top: 8px;
+    padding: 10px;
+    border-radius: 10px;
+    font-weight: bolder;
+    font-size: 20px;
+    color: rgb(3, 68, 11);
+}
+
+#register-name-validation-div {
+    text-align: center;
+    margin-top: 8px;
+    padding: 10px;
+    border-radius: 10px;
+    font-weight: bolder;
+    font-size: 20px;
+    color: rgb(3, 68, 11);
+}
+
+#register-password-validation-div {
+    text-align: center;
+    margin-top: 8px;
+    padding: 10px;
+    border-radius: 10px;
+    font-weight: bolder;
+    font-size: 20px;
+    color: rgb(3, 68, 11);
+}
+
+#register-cpassword-validation-div {
+    text-align: center;
+    margin-top: 8px;
+    padding: 10px;
+    border-radius: 10px;
+    font-weight: bolder;
+    font-size: 20px;
+    color: rgb(3, 68, 11);
+}
+
+#BackToLoginLink {
+    margin-top: 10px;
+    margin-left: 45px;
+    font-size: 18px;
+    color: rgb(0, 0, 0);
+    text-decoration: none;
+}

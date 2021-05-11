@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+        <link rel="stylesheet" href="../css/reset.css" />
+        <link rel="stylesheet" href="../css/style.css" />
+        <title>Login Page</title>
+    </head>
+
+    <body>
+        <div class="login-form">
+            <h1>Login</h1>
+            <form id="login-form" method="post">
+                <div id="container-email">
+                    <label>Email</label>
+                    <input id="loginInputEmail" type="email" required />
+                    <div id="mail-validation-div"></div>
+                </div>
+                <div id="container-password">
+                    <label>Password</label>
+                    <input id="loginInputPassword" type="password" required />
+                    <div id="password-validation-div"></div>
+                </div>
+                <button id="loginButton" type="button">Enter</button>
+                <div id="login-validation-div"></div>
+            </form>
+            <a id="goToRegisterLink" href="register.html" rel="noopener noreferrer"
+                >Create a new account</a
+            >
+        </div>
+
+        <script src="../js/login.js"></script>
+    </body>
+</html>
